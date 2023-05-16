@@ -336,7 +336,9 @@ padding: 32px 0;
     align-items: center;
     justify-content: center;
 }
-.social-network-link:hover,
+.social-network-link:hover {
+    background-color: var(--laurel);
+}
 .social-network-link:focus {
     background-color: var(--laurel);
 }
@@ -357,7 +359,7 @@ padding: 32px 0;
 
     color: var(--black);
 
-    margin-bottom: 72px;
+    margin-bottom:72px;
 
     display: flex;
     justify-content: center;
