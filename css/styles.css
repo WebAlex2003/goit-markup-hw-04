@@ -336,11 +336,9 @@ padding: 32px 0;
     align-items: center;
     justify-content: center;
 }
-.social-network-link:hover {
-    background-color: var(--laurel);
-}
+.social-network-link:hover,
 .social-network-link:focus {
-    background-color: var(--laurel);
+    background-color: #404bbf;
 }
 .svg-media-link {
     fill: var(--honky);
@@ -359,7 +357,8 @@ padding: 32px 0;
 
     color: var(--black);
 
-    margin-bottom:72px;
+    margin-bottom: 72px;
+    margin-top: 0;
 
     display: flex;
     justify-content: center;
