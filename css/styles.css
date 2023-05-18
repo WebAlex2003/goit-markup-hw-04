@@ -340,7 +340,7 @@ padding: 32px 0;
     background-color: #404bbf;
 }
 .social-network-link:focus {
-    background-color: #404bbf;
+    background-color: var(--laurel);
 }
 .svg-media-link {
     fill: var(--honky);
