@@ -30,7 +30,6 @@
 h3,p {
    margin: 0;
 }
-
 ul {
     list-style: none;
     margin: 0;
@@ -272,7 +271,7 @@ button:focus {
 .fourth-section-container {
     width: 1158px;
     margin: 0 auto;
-    padding: 32px 0;
+    padding: 0 15px;
 }
 
 .third-title {
@@ -286,11 +285,12 @@ button:focus {
     color: var(--black);
 }
 .item-list {
-padding: 32px 0;
+    padding: 32px 0;
 }
 
 .list-names {
     background-color: var(--white);
+    
 
     border-radius: 0px 0px 4px 4px;
     flex-basis: calc((100% - 72px) / 4);
