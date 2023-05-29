@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- header section -->
     <header class="header-topbar">
       <div class="header-container container">
         <nav class="nav-list list">
@@ -36,7 +37,7 @@
           >
           <ul class="menu-list list">
             <li>
-              <a href="./index.html" class="link-header link">Studio</a>
+              <a href="./index.html" class="link-header link active">Studio</a>
             </li>
             <li>
               <a href="./portfolio.html" class="link-header link">Portfolio</a>
@@ -62,6 +63,7 @@
         </address>
       </div>
     </header>
+    <!-- main section -->
     <main>
       <section class="section-hero">
         <div class="container">
@@ -382,6 +384,7 @@
         </div>
       </section>
     </main>
+    <!-- footer section -->
     <footer class="footer-section">
       <div class="footer-container container">
         <div class="logo-container">
@@ -428,6 +431,16 @@
         </div>
       </div>
     </footer>
+    <!-- modal window -->
+    <div class="backdrop is-hidden">
+      <div class="modal-window">
+        <button type="button" class="modal-close-button data-modal-close">
+          <svg class="modal-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
