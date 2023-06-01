@@ -543,6 +543,9 @@ button:focus {
 .portfolio-overlay {
     position: relative;
     overflow: hidden;
+
+    transform: translateY(0%);
+
 }
 .overlay-text {
     position: absolute;
